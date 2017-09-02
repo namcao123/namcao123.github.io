@@ -17,6 +17,10 @@ p, ol
 {
   font-size:20px
 }
+ul, li
+{
+  font-size: 20px;
+}
 
 
 p.small{
