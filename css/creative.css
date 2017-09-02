@@ -1,51 +1,185 @@
-.jumbotron{
+/*!
+ * Start Bootstrap - Freelancer v3.3.7+1 (http://startbootstrap.com/template-overviews/freelancer)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+/* nav, footer color: #002b36  # base03 solarized dark
+ * dark section: text #eee8d5  # base2 solarized light
+ *
+ * */
+
+body{
+  font-family:Lato, 'Helvetica Neue',Helvetica,Arial,sans-serif;
+  overflow-x:hidden;
+}
+
+p, ol
+{
+  font-size:20px
+}
+
+p.small{
+  font-size:16px
+}
+
+a, a:active, a:focus, a:hover{
+  color:#18BC9C;
+  outline:0
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform: uppercase;
+  font-weight: 700
+}
+
+.edu-text {
+  padding-left: 29px;
+}
+
+
+.navbar-custom,
+header .intro-text .name{
+  font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  text-transform:uppercase
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand.active,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-nav li a{
+  color:#fff;
+}
+
+.navbar-brand {
+  font-size:1.5em;
+}
+
+.navbar-custom{
+  background:#002b36;
+  font-weight:700;
+  border:none;
+  padding:10px 0;
+  /*font-size:1.5em;*/
+}
+
+.navbar-custom a:focus{
+  outline:0
+}
+.navbar-custom .navbar-nav{
+  letter-spacing:1px
+}
+.navbar-custom .navbar-nav li a:hover{
+  color:#18BC9C;
+  outline:0
+}
+.navbar-custom .navbar-nav li a:active,.navbar-custom .navbar-nav li a:focus{
+  color:#fff
+}
+
+.navbar-custom .navbar-nav li.active a,
+    .navbar-custom .navbar-nav li.active a:active,
+    .navbar-custom .navbar-nav li.active a:focus,
+    .navbar-custom .navbar-nav li.active a:hover{
+  color:#fff;
+  background:#18BC9C
+}
+
+.navbar-custom .navbar-toggle{
+  color:#fff;
+  text-transform:uppercase;
+  font-size:10px;
+  border-color:#fff
+}
+
+.navbar-custom .navbar-toggle:focus,.navbar-custom .navbar-toggle:hover{
+  background-color:#18BC9C;
+  color:#fff;
+  border-color:#18BC9C
+} 
+
+
+header{
+  color: #fff;
   text-align:center;
+//  background:#18b596;
+  background:#43B6B1;
 }
 
-.ten {
-    text-align:center;
-    color: black;
-    font-size: 40px;
-    font-weight:bold;
+header .container {
+  padding-top: 100px;
+  padding-bottom: 50px;
+} 
+
+.profile-img {
+  border: 0px;
+  height: 200px;
+  width: 200px;
 }
 
-.ten2 {
-    text-align:center;
-    color: black;
-    font-size: 40px;
-    font-weight:bold;
+section {
+  padding: 50px;
 }
 
-.intro {
-    text-align:center;
-    color: black;
-    font-size: 18px;
-    //font-weight:bold;
+section.darkbg {
+  background: #18b596;
+  color: #eee8d5;
 }
 
-.t{
-  padding-top: 10px;
-  background-color: lightblue;
-  padding-bottom: 20px;
-  
+section.lightbg {
+  background: #fdf6e3;
+  color: #586e75;
 }
 
-
-.edu {
-    text-align:left;
-    color: black;
-    font-size: 18px;
-    //font-weight:bold;
+a.lightbg-link, a.lightbg-link:active, a.lightbg-link:focus{
+  font-style: italic;
+  color:#b58900;
+  outline:0
 }
 
-.foot {
-  font-weight:bold;
-  text-align: center;
+a.lightbg-link:hover, a.darkbg-link:hover{
+  font-style: italic;
+  color:#d33682;
+  outline:0
 }
 
-.pub {
-    text-align:left;
-    color: black;
-    font-size: 18px;
-    //font-weight:bold;
+a.darkbg-link, a.darkbg-link:active, a.darkbg-link:focus{
+  font-style: italic;
+  color:#eee8d5;
+  outline:0
+}
+
+.btn-social {
+    display: inline-block;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn-outline {
+    color: #eee8d5;
+    font-size: 25px;
+    border: 2px solid #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+    margin-top: 15px;
+}
+
+.btn-social, .scroll-top, .scroll-top .btn {
+    width: 50px;
+    height: 50px;
+}
+
+a.btn-social:active, a.btn-social:focus, a.btn-social:hover {
+  color:#d33682;
+}
+
+footer {
+  color: #eee8d5;
+  padding: 25px 0;
+  background-color: #002b36;
 }
