@@ -13,7 +13,11 @@ body{
   overflow-x:hidden;
 }
 
-p, ol, ul, li
+p, ol
+{
+  font-size:20px
+}
+li, 
 {
   font-size:20px
 }
